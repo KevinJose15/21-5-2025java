@@ -1,6 +1,6 @@
 package registroacademico;
 
-public class DatoGeneral {
+public abstract class DatoGeneral {
     private String nombre;
     private String direccion;
     private String telefono;
@@ -55,4 +55,6 @@ public class DatoGeneral {
         System.out.println("Eliminación de datos generales:");
         System.out.println("Nombre: " + nombre);
     }  
+    
+    public abstract void imprimir();
 }

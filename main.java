@@ -1,4 +1,5 @@
 import registroacademico.Alumno;
+import registroacademico.DatoGeneral;
 import registroacademico.Maestro;
 public class main {
     public static void main(String[] args){
@@ -15,4 +16,5 @@ public class main {
         maestro.modificar();
     
     }
+
 }
