@@ -34,7 +34,7 @@ public class Alumno extends DatoGeneral{
     }
     @Override
     public void registrar() {
-        System.out.println("Registro de alumno:");
+        System.out.println("Registro de alumno: clase hija");
         System.out.println("Número de carnet: " + nCarnet);
         System.out.println("Encargado: " + encargado);
     }

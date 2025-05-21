@@ -29,7 +29,7 @@ public class Maestro extends DatoGeneral{
 
     @Override
     public void modificar() {
-        System.out.println("Modificación de maestro:");
+        System.out.println("Modificación de maestro: clase hija");
         System.out.println("Número de DUI: " + dui);
         System.out.println("Grados: " + grado);
     }

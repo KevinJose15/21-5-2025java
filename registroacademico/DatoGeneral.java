@@ -45,7 +45,7 @@ public class DatoGeneral {
         System.out.println("Email: " + email);
     }
     public void modificar() {
-        System.out.println("Modificación de datos generales:");
+        System.out.println("Modificación de datos generales: clase madre");
         System.out.println("Nombre: " + nombre);
         System.out.println("Dirección: " + direccion);
         System.out.println("Teléfono: " + telefono);
