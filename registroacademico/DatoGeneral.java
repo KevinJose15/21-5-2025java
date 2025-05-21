@@ -51,4 +51,8 @@ public class DatoGeneral {
         System.out.println("Teléfono: " + telefono);
         System.out.println("Email: " + email);
     }
+        public void eliminar() {
+        System.out.println("Eliminación de datos generales:");
+        System.out.println("Nombre: " + nombre);
+    }  
 }
